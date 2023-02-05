@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+
+ /* this is the navbar section*/
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/clementine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.logo img {
+    height: 100px;
+    position: relative;
+    left: -60px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(199, 191, 191);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+button {
+    border: none;
+    background: orange;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+/*ending navbar css*/
+
+
+
+
+.container{
+    width: 50%;
+    margin: 50px auto;
+}
+.contact-box{
+    width: 50%;
+    background: #fff;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #1c00b5;
+    color: fff;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+}
+p{
+    color: white;
+    left: 10%;
+    font-size: 35;
+}
+.container p{
+    margin-bottom: 10px; 
+    color: white; 
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border-radius: none;
+    border-bottom: 0.2pc;
+    outline: none; 
+    padding-bottom: 5px;
+}
+
+@import url('https://fonts.googlepis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    position: relative;
+    width: 500px;
+    padding: 6px;
+    
+}
+input,
+textarea{
+    width :100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 6px 0px
+}
+#btn{
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
+}
+

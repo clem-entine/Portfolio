@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    height: 100vh;
+    
+   
+}
+
+
+ /* this is the navbar section*/
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/clementine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.logo img {
+    height: 100px;
+    position: relative;
+    left: -60px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(199, 191, 191);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+button {
+    border: none;
+    background: orange;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+/*ending navbar css*/
+
+
+h3{
+    position: relative;
+    font-size: 2rem;
+    top: 60px;
+    left: 20%;
+    color: white;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px ;
+}
+
+.tab-links{
+    margin-right:50px ;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer; 
+    position : relative;
+    left: 55%;
+    color: white;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px ;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s ;
+}
+
+.tab-links.active-link::after{
+    width: 50% ;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;  
+  position : relative;
+    left: 55%;
+}
+
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 14px;
+}
+
+.tab-contents{
+display: none;
+
+}
+.tab-contents.active-tab{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 5%;
+}
+
+
+
+
+.clemy{
+    position: relative;
+    top: 105px;
+}
+
+p{
+    position: relative;
+    left: 5%;
+   
+    color: rgb(185, 178, 178);
+    font-size: 1.6rem;
+}
+
+ 
+
+.links{
+    position: relative;
+    left: 3%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    position: relative;
+    left: 55%;
+    top: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: transparent;
+    color: white;
+  }
+  .fa-linkedin {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-instagram {
+    background:transparent;
+    color: white;
+  }
+
+  .fa-snapchat-ghost {
+    background: transparent;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-github {
+    background: transparent;
+    color: white;
+  }
+  

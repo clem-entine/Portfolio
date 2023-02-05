@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    height: 100vh;
+   
+}
+
+
+ /* this is the navbar section*/
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/clementine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.logo img {
+    height: 100px;
+    position: relative;
+    left: -60px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(199, 191, 191);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+button {
+    border: none;
+    background: orange;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+/*ending navbar css*/
+
+
+/*body section starts*/
+
+.image1 {
+    height: 350px;
+    width: 300px;
+    position: relative;
+    left: 20%;
+    top: -50px;
+    border-radius: 2000px;
+}
+
+h1{
+    color: whitesmoke;
+    margin-left: 45%;
+    position: relative;
+    top: 150px;
+    font-size: 4rem;
+}
+
+p{
+    color: whitesmoke;
+    margin-left: 45%;
+    font-size: 2rem;
+    position: relative;
+    top: 250px;
+    
+}
+
+
+ /* This is the Annny footer section */
+
+ #annny body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+ 
+ #annny * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ #annny .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#annny ul{
+    list-style: none;
+}
+
+ #annny .footer {
+         background-color: #24262b;
+         padding: 70px 0;
+          
+}
+#annny .container2 {
+        height: 40vh;
+            
+}
+#annny .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+#annny .footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+#annny .footer-col h5 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+#annny .footer-col h5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+#annny .footer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+#annny .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#annny .footer-col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+#annny .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footerp {
+    position: relative;
+    left: 10%;
+    top: -20px;
+    font-size: 2.7rem;
+    color: #bbbbbb;
+}
+
+#annny .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+/* end footer section */
+
+
+
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: transparent;
+    color: black;
+  }
+  .fa-linkedin {
+    background: transparent;
+    color: black;
+  }
+
+  .fa-instagram {
+    background:transparent;
+    color: black;
+  }
+
+  
+  .fa-github {
+    background: transparent;
+    color:black;
+  }
+  
+
