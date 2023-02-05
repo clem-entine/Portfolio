@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0;30
+     0;0,400;0;500;0;600;0;700;1;100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:
+     wght@700;800;900&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <a href="index.html"> <div class="logo"><img src="../images/Capture-removebg-preview (2).png"></div></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button type="button">Download CV</button>
+              </nav>
+    
+        
+        </div>
+       
+          
+            
+            <div class="container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="../images/clem.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="../images/clem8.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="../images/clem3.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="../images/clem4.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="../images/clem5.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="../images/clem6.jpg" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem8.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem3.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem4.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem5.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+                </div>    
+                <div class="column">
+                  <img class="demo cursor" src="../images/clem6.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+                </div>
+              </div>
+            </div>  
+            <script src="../JavaScript/gallery.js"></script>
+</body>
+</html>
